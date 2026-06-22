@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, hwb(314 21% 19%), hwb(314 68% 10%));
+    color: hwb(295 12% 78%);
+    text-align: center;
+}
+
+header {
+    padding: 30px;
+    background-color: lch(53.36% 82.85 347.69 / 0.706);
+}
+
+h1 {
+    color: 3lch(29.14% 31.27 271.28);
+}
+
+.subtitulo {
+    color: lab(21.25% 0 0);
+    font-size: 18px;
+}
+
+.tarjeta {
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: lab(67.16% 62.4 -41.89);
+    border-radius: 15px;
+}
+
+h2 {
+    color: #b500b8;
+    text-align: left;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+img {
+    width: 80%;
+    max-width: 500px;
+    border-radius: 12px;
+    margin: 15px;
+}
+
+a {
+    color: oklch(36.288% 0.1464 2.548);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+button {
+    background-color: #b6005b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lab(28.76% 52.23 9.96);
+}
+
+footer {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.70);
+    color: hsl(194, 50%, 35%);
+}
